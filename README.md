@@ -1,5 +1,3 @@
-# Color Message Transfer
-
 # Abstract 
 Most modern encryption methods, like the RSA algorithm, rely on the fact that it would take a hacker an unreasonable amount of time and computing power to decrypt a message without knowing the private key. At the same time, computer technology is advancing every year. Encryption methods that were good enough at one time can now be brute forced in a reasonable amount of time with a fast computer. The weakness of a widely available encryption method is that people will be able to figure out how it works. This project aims to create a way to encrypt a message in a colorful image that won’t mean anything to those who don’t know what it is. 
 
