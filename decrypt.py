@@ -18,13 +18,13 @@ def decrypt(path):
                 if y % 12 == 0:
                     for color in range(3):
                         message_list.append(pixelMap[x,y][color])
-                    print(pixelMap[x,y])
+                    # print(pixelMap[x,y])
 
     # convert list back into original message
     message_string = ""
     for character in range(len(message_list)):
         message_string += (chr(message_list[character] // 2))
-    print(message_string)
+    print("Decrypted message:", message_string)
 
 
 if __name__ == "__main__":

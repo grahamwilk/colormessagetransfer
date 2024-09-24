@@ -5,6 +5,7 @@ def encrypt(message, path_to_save):
     pixelCount = math.ceil(len(message)/3)
     length = math.ceil(math.sqrt(pixelCount))
     chars = []
+    message = message
     for char in message:
         chars.append(ord(char))
     while length**2 > len(chars)/3:
